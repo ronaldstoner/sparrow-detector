@@ -1,6 +1,6 @@
-# Simple Sparrow Detector
+# Silver Sparrow Detector
   - Currently detects versions 1 and 2
-  - Scans OSX filesystem for specific files and indicators of compromise related to the Simple Sparrow attack
+  - Scans OSX filesystem for specific files and indicators of compromise related to the Silver Sparrow attack
   - Can run as user, may want to run as root (ALWAYS VERIFY CODE FIRST)
 
 ### WARNING
