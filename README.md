@@ -10,9 +10,10 @@ Please review the source code and have an understanding of what this does before
 * OSX
 * Bash
 
-### Installation
+### Installation / Instructions
 Install the dependencies and run the script.
 ```
 chmod +x sparrow-detector.sh
 ./sparrow-detector.sh
 ```
+NOTE: No output will be returned currently when there are no files detected. 
