@@ -5,8 +5,9 @@
 # Twitter: @forwardsecrecy
 # Signatures and filenames provided by https://redcanary.com/blog/clipping-silver-sparrows-wings/
 #
-# Version: 1.1
+# Version: 1.2
 #
+# 1.2 - Increased scope of developer certificate search
 # 1.1 - Added in malicious developer detection
 # 1.0 - Initial release
 # TODO: Add in MD5 hash searches
@@ -39,7 +40,7 @@ done
 
 # DeveloperID search
 for i in $DEV_LIST_v1; do
-    RESULT=$(security find-identity -v -p codesigning)
+    RESULT=$(security find-identity -v)
     if [[ $RESULT == *$i* ]]
     then
         echo "[URGENT] - v1 Malicious Developer ID Found:    " $i
@@ -57,7 +58,7 @@ done
 
 # DeveloperID search
 for i in $DEV_LIST_v2; do
-    RESULT=$(security find-identity -v -p codesigning)
+    RESULT=$(security find-identity -v)
     if [[ $RESULT == *$i* ]]
     then
         echo "[URGENT] - v2 Malicious Developer ID Found:    " $i
