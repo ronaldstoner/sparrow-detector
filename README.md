@@ -11,9 +11,9 @@ Please review the source code and have an understanding of what this does before
 * Bash
 
 ### Installation / Instructions
-Install the dependencies and run the script.
+Download the [sparrow-detector script](sparrow-detector.sh) or call it right away:
 ```
-chmod +x sparrow-detector.sh
-./sparrow-detector.sh
+curl https://raw.githubusercontent.com/ronaldstoner/sparrow-detector/master/sparrow-detector.sh | bash -
 ```
-NOTE: No output will be returned currently when there are no files detected. 
+
+> **NOTE:** No output will be returned currently when there are no files detected. 
