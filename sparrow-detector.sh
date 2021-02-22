@@ -1,4 +1,4 @@
-#/bin/bash
+#!/bin/bash
 #
 # Sparrow Detector
 # Author: Ron Stoner
